@@ -1,0 +1,20 @@
+### User sign up endpoint
+ POST http://localhost:3001/v1/user
+ Content-Type: application/json
+
+ {
+    "name": "Claracodess",
+    "company": "Some company name",
+    "address": "Some address",
+    "phone": "0987634",
+    "email": "claracodess2@gmail.com",
+    "password": "secret123"
+}
+### User sign in endpoint
+ POST http://localhost:3001/v1/user/login
+ Content-Type: application/json
+
+ {
+    "email": "claracodess2@gmail.com",
+    "password": "secret123"
+}
